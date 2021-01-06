@@ -1,0 +1,26 @@
+* {
+   background-color: rgb(194, 241, 255);
+}
+body {
+  text-align: center;
+  color: aliceblue;
+}
+#logo {
+  width: 200;
+  height: 200;
+}
+h1.title {
+  font-family: verdana;
+  font-size: 25px;
+  color:#00CE27;
+}
+h3.title{
+  color:#00CE27;
+}
+#discord {
+  border-width: 0px;
+  background: transparent;
+}
+#content{
+  color:#1e90ff;
+}
