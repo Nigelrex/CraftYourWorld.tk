@@ -3,14 +3,15 @@
 <head>
     <!--This links to the external stylesheet-->
     <link rel="stylesheet" href="index_html.css">
-    <title>Craft Your World</title>
+    <link href="resourcepacks.html">
+    <title>CraftYourWorld</title>
 </head>
 <style>
     .button1 {
   background-color: white;
   color: rgb(70, 70, 70);
   border: 3px solid #4CAF50;
-  padding: 20px 300px;
+  padding: 20px 150px;
   transition-duration: 0.2s;
   text-align: center;
 }
@@ -19,7 +20,7 @@
   background-color: #4CAF50;
   color: white;
   border: 3px solid #4CAF50;
-  padding: 20px 300px;
+  padding: 20px 150px;
   transition-duration: 0.2s;
   text-align: center;
 }
@@ -28,7 +29,7 @@
   background-color: white;
   color: rgb(70, 70, 70);
   border: 3px solid #008CBA;
-  padding: 20px 300px;
+  padding: 20px 150px;
   transition-duration: 0.2s;
   text-align: center;
 }
@@ -37,15 +38,11 @@
   background-color: #008CBA;
   color: white;
   border: 3px solid #008CBA;
-  padding: 20px 300px;
+  padding: 20px 150px;
   transition-duration: 0.2s;
   text-align: center;
 }
 .discord{
-    text-align: right;
-}
-.img{
-    background-color: #000000;
     text-align: right;
 }
 h1.bold {
@@ -60,21 +57,34 @@ p.bold {
   font-size: 30px;
   color: rgb(0, 174, 255);
 }
+
+
 </style>
 <body>
+  <div>
    <img id="logo" src="assets/CraftYourWorld.gif" width="946" height="572" alt="CraftYourWorld">
+  </div>
+  <div>
    <h1 class="bold" class="title">CraftYourWorld</h1>
+  </div>
+  <div>
    <h2 class="bold" class="title" title="I'm Watching Your World">Watching Your World...</h2>
+  </div>
    <br>
+   <div>
    <p class="bold" id="content">CraftYourWorld With Some Packs out Here!</p>
+  </div>
 
-   <h4><button class="button1"> Resourcepack </button></h4>
-<br>
+  
+<h4><a href="pages/resourcepacks.html" target="_self"><button class="button1">Resourcepacks</button></a></h4>
 <h4><button class="button2"> Datapack </button></h4>
 <hr>
 <hr>
+<div id="aside">
 <iframe class="discord" id="discord" src="https://discord.com/widget?id=789811806817878036&theme=dark" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" width= 350; height= 500;></iframe>
-
+</div>
+<br>
+<a href="https://discord.gg/JtRQCKub" ><img class="discord" src="assets/discord.png" alt="Join us on Discord"></a>
 
 </body>
 </html>
