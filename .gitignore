@@ -5,3 +5,6 @@
 *.iml
 out
 gen
+
+# Other files
+debug.log
