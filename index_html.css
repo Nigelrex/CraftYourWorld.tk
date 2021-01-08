@@ -1,5 +1,5 @@
 * {
-   background-color: rgb(194, 241, 255);
+   background-color: #c2f1ff;
 }
 #discord {
   border-width: 0px;
@@ -14,7 +14,7 @@ body {
   width: 200;
   height: 200;
   text-align: center;
-  background-color: black;
+  background-color:#c2f1ff;
   background-size: cover;
   padding:0px 200px;
 }
@@ -35,4 +35,8 @@ h4.title{
 #content{
   color:#1e90ff;
   text-align: center;
+}
+@font-face{
+  font-family: Minecrafter;
+  src: url(Minecrafter_Alt.ttf);
 }
